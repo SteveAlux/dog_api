@@ -20,6 +20,7 @@ function displayImages(responseJson){
     console.log(emptyArray);
     for (let i =0; i< message.length;i++){
         emptyArray.push(`<img src='${message[i]}'>`);
+        console.log(message[i]);
         $('#landing').html(emptyArray);
 
     }
